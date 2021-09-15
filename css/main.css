@@ -651,75 +651,76 @@ h5, h6          { font-weight: bolder }
         text-transform: uppercase;
         font-family: 'raleway-regular';
         color: #454545;
+        /*color: #43CD80;*/
         font-size: 1.5em;
-    }
+}
 
-    header .logo a:hover {
-        text-decoration: none;
-        color: #969595;
-        font-size: 1.5em;
-    }
+header .logo a:hover {
+    text-decoration: none;
+    color: #969595;
+    font-size: 1.5em;
+}
 
-    header .footer{
-        display: none;
-    }
-    header #menu_icon,
-    header .close_menu{
-        float: right;
-        margin: 30px 30px 0 0;
-    }
+header .footer{
+    display: none;
+}
+header #menu_icon,
+header .close_menu{
+    float: right;
+    margin: 30px 30px 0 0;
+}
 
-    header nav{
-        width: 100%;
-        position: absolute;
-        top: 100px;
-        left: 0;
-        z-index: 9999;
-    }
+header nav{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 9999;
+}
 
-    header nav ul{
-        list-style: none;
-        display: none;
-        position: relative;
-    }
-    header nav ul li a{
-        display: block;
-        width: 100%;
-        padding: 30px 0;
-        text-align: center;
-        color: #454545;
-        font-family: "raleway-regular", arial;
-        font-size: 14px;
-        text-decoration: none;
-        border-top: 1px solid #f7f5f5;
-        background: #fff;
-    }
-    header nav ul li a:active{
-        background: #f7f5f5;
-    }
-    #menu_icon,
-    .close_menu,
-    .show_menu{
-        display: block;
-    }
-    .show_menu{
-        display: block;
-    }
+header nav ul{
+    list-style: none;
+    display: none;
+    position: relative;
+}
+header nav ul li a{
+    display: block;
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    color: #454545;
+    font-family: "raleway-regular", arial;
+    font-size: 14px;
+    text-decoration: none;
+    border-top: 1px solid #f7f5f5;
+    background: #fff;
+}
+header nav ul li a:active{
+    background: #f7f5f5;
+}
+#menu_icon,
+.close_menu,
+.show_menu{
+    display: block;
+}
+.show_menu{
+    display: block;
+}
 
-    .main .work{
-        width: 50%;
-    }
-    .main{
-        width: 100%;
-        position: relative;
-        padding-left: 0;
-    }
+.main .work{
+    width: 50%;
+}
+.main{
+    width: 100%;
+    position: relative;
+    padding-left: 0;
+}
 }
 
 @media (max-width:550px){
-     .main .work{
-        width: 100%;
-    }
+ .main .work{
+    width: 100%;
+}
 }
 
 
