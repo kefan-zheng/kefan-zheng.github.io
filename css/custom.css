@@ -1,6 +1,6 @@
 body {
   background-position: center center;
-  background: url("../img/bg.png");
+  background: linear-gradient(to bottom right, rgb(63, 43, 150), rgb(168, 192, 255));
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -42,7 +42,7 @@ body {
 
 .navbar {
   width: 100%;
-  background-color: rgba(55,124,222,0.9);
+  background-color: rgba(63,43,150,0.9);
   box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
   justify-content: space-between;
 }
@@ -78,12 +78,13 @@ body {
 
 
 .black-box {
+  flex: 1;
   border-radius: 0;
-  background-color: rgba(122,165,224,0.75);
   color: white;
   padding: 30px;
-  margin-right: 30px;
   float: right;
+  min-width: 400px;
+  margin-left: 30px;
 }
 
 .kefan-welcome {
@@ -112,6 +113,28 @@ a:hover {
   box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0;
   border: 0;
+}
+
+.artistic-text {
+  font-family: 'Pacifico', cursive; /* Specify a decorative font */
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  flex: 1;
+  max-width: 50%;
+  min-width: 400px;
+  box-sizing: border-box;
+  border-radius: 0;
+  padding: 30px;
+  margin-right: 30px;
 }
 
 @media (max-width: 700px) {
